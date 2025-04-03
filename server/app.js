@@ -1,9 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import dotenv from 'dotenv';
 import resumeRoutes from './routes/resumes.js';
-
+import dotenv from 'dotenv';
 dotenv.config();
+
 
 const app = express();
 app.use(express.json()); // To parse JSON requests
